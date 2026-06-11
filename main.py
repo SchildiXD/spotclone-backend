@@ -14,7 +14,7 @@ app.add_middleware(
 )
 
 # Piped-Instanz, die du nutzen möchtest
-PIPED_API_BASE = "https://pipedapi.leptons.xyz"
+PIPED_API_BASE = "https://pipedapi.adminforge.de"
 
 @app.get("/health")
 def health_check():
