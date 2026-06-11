@@ -16,7 +16,7 @@ app.add_middleware(
 
 # Wähle eine öffentliche Invidious-Instanz aus der offiziellen Liste:
 # https://docs.invidious.io/instances
-INVIDIOUS_API_BASE = "https://inv.nadeko.net"
+INVIDIOUS_API_BASE = "invidious.tiekoetter.com"
 
 @app.get("/health")
 def health_check():
